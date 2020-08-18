@@ -60,7 +60,7 @@ function myLoop() {         //  create a loop function
 const spans = document.querySelectorAll('span');
 spans.forEach(function(el,index){
   console.log(el);
-  el.style.padding="35ps";
+  el.style.padding="35px";
   el.style.border = '1px solid black';
   el.style.display= 'block';
 })
